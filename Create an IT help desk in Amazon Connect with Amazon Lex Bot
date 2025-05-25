@@ -1,0 +1,13 @@
+Create an IT help desk in Amazon Connect with Amazon Lex Bot
+
+I recently completed a project building an IT Help Desk in Amazon Connect integrated with an Amazon Lex bot. Here’s a condensed overview of the work:
+
+• Amazon Lex Bot Creation: Developed a Lex bot named “HelpDesk” with two key intents—Password Reset and Network Issue—to capture the reasons for customer calls.
+
+• Integration & Permissions: Configured IAM roles and added the Lex bot to my Amazon Connect instance, ensuring secure and seamless interaction.
+
+• Routing & Contact Flow Design: Designed a custom contact flow that uses voice prompts and customer input to route calls to the correct queue (Password Reset or Network Issue). This flow included blocks for logging, setting voice, capturing input via Lex, and transferring calls accordingly.
+
+• Testing & Validation: Tested voice and chat experiences to ensure the solution accurately recognized intents and routed customers, enhancing overall IT support efficiency.
+
+This project deepened my hands-on experience with AWS contact center solutions, cloud automation, and streamlining IT support processes.
